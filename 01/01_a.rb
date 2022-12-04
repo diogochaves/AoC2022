@@ -6,7 +6,7 @@ lines.reduce(0) do |cur, n|
     max = [max, cur].max
     cur = 0
   end
-  cur += n.to_i
+  cur + n.to_i
 end
 
 puts max # 71023

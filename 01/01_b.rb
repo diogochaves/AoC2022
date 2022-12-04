@@ -6,7 +6,7 @@ lines.reduce(0) do |cur, n|
     max << cur
     cur = 0
   end
-  cur += n.to_i
+  cur + n.to_i
 end
 
 puts max.sort.reverse[0..2].sum # 206289
